@@ -50,6 +50,7 @@ if (
   number5 === 8 ||
   number6 === 8 ||
   number5 - number6 === 8 ||
+  number6 - number5 === 8 ||
   number5 + number6 === 8
 ) {
   console.log(true)
@@ -63,8 +64,8 @@ if (
 //   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 // */
 
-let totalShoppingCart = 70
-let shippingCost = 10
+const totalShoppingCart = 70
+const shippingCost = 10
 
 if (totalShoppingCart > 50) {
   console.log(
@@ -119,6 +120,7 @@ if (item1 > item2 && item1 > item3 && item2 > item3) {
 } else if (item3 > item1 && item3 > item2 && item2 < item1) {
   console.log(item3, item1, item2)
 }
+// HO MESSO UNA COMPARAZIONE DI TROPPO IN OGNI IF / ELSE IF
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
